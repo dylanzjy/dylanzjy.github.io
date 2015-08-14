@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   
   <title><![CDATA[Avalon]]></title>
-  <subtitle><![CDATA[It's my Utopia]]></subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.zhangjiayi.me//"/>
-  <updated>2015-08-13T08:30:31.309Z</updated>
+  <updated>2015-08-14T03:08:16.710Z</updated>
   <id>http://www.zhangjiayi.me//</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title><![CDATA[Setting up a Github Pages blog with Hexo]]></title>
-    <link href="http://www.zhangjiayi.me/2015/08/13/hello-world/"/>
-    <id>http://www.zhangjiayi.me/2015/08/13/hello-world/</id>
-    <published>2015-08-13T08:30:31.309Z</published>
-    <updated>2015-08-13T08:30:31.309Z</updated>
+    <link href="http://www.zhangjiayi.me/2015/08/14/hello-world/"/>
+    <id>http://www.zhangjiayi.me/2015/08/14/hello-world/</id>
+    <published>2015-08-14T03:08:16.710Z</published>
+    <updated>2015-08-14T03:08:16.710Z</updated>
     <content type="html"><![CDATA[<p>This tutorial is only for Hexo version 3.0 or later.<br><a id="more"></a></p>
 <h2 id="Setup">Setup</h2><p>You will need the following installed before you can start up the tutorial.</p>
 <ol>
@@ -40,6 +40,8 @@
     <![CDATA[<p>This tutorial is only for Hexo version 3.0 or later.<br>]]>
     
     </summary>
+    
+      <category term="hexo" scheme="http://www.zhangjiayi.me/tags/hexo/"/>
     
   </entry>
   
