@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.zhangjiayi.me//"/>
-  <updated>2015-08-14T03:08:16.710Z</updated>
+  <updated>2015-08-14T09:41:32.190Z</updated>
   <id>http://www.zhangjiayi.me//</id>
   
   <author>
@@ -19,7 +19,45 @@
     <title><![CDATA[Setting up a Github Pages blog with Hexo]]></title>
     <link href="http://www.zhangjiayi.me/2015/08/14/hello-world/"/>
     <id>http://www.zhangjiayi.me/2015/08/14/hello-world/</id>
-    <published>2015-08-14T03:08:16.710Z</published>
+    <published>2015-08-14T09:41:32.190Z</published>
+    <updated>2015-08-14T09:41:32.190Z</updated>
+    <content type="html"><![CDATA[<p>This tutorial is only for Hexo version 3.0 or later.<br><a id="more"></a></p>
+<h2 id="Setup">Setup</h2><p>You will need the following installed before you can start up the tutorial.</p>
+<ol>
+<li><a href="https://nodejs.org/" target="_blank" rel="external">Node.js</a></li>
+<li><a href="http://git-scm.com/download/" target="_blank" rel="external">Git</a></li>
+<li>Hexo <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="Initialize_Hexo">Initialize Hexo</h2><h3 id="Create_a_new_project">Create a new project</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;yourWorkspace&gt;</span><br><span class="line">hexo init &lt;yourProjectName&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;yourProjectName&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="Install_Hexo_Plugins">Install Hexo Plugins</h3><h4 id="Install_generators">Install generators</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br></pre></td></tr></table></figure>
+<h4 id="Install_server">Install server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-server --save</span><br></pre></td></tr></table></figure>
+<h4 id="Install_deployers">Install deployers</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br></pre></td></tr></table></figure>
+<h4 id="Update_plugins">Update plugins</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-marked@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-renderer-stylus@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-generator-feed@<span class="number">1</span> --save</span><br><span class="line">npm install hexo-generator-sitemap@<span class="number">1</span> --save</span><br></pre></td></tr></table></figure>
+<p>To be continued…<br>&lt;!– ## Quick Start</p>
+<h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a> –&gt;</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>This tutorial is only for Hexo version 3.0 or later.<br>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.zhangjiayi.me/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Setting up a Github Pages blog with Hexo]]></title>
+    <link href="http://www.zhangjiayi.me/2015/08/14/setting-up-a-github-pages-blog-with-hexo/"/>
+    <id>http://www.zhangjiayi.me/2015/08/14/setting-up-a-github-pages-blog-with-hexo/</id>
+    <published>2015-08-14T09:26:31.465Z</published>
     <updated>2015-08-14T03:08:16.710Z</updated>
     <content type="html"><![CDATA[<p>This tutorial is only for Hexo version 3.0 or later.<br><a id="more"></a></p>
 <h2 id="Setup">Setup</h2><p>You will need the following installed before you can start up the tutorial.</p>

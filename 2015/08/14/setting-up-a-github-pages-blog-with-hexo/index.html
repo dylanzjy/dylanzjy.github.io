@@ -8,10 +8,10 @@
   <meta name="description" content="This tutorial is only for Hexo version 3.0 or later.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Setting up a Github Pages blog with Hexo">
-<meta property="og:url" content="http://www.zhangjiayi.me/2015/08/14/hello-world/index.html">
+<meta property="og:url" content="http://www.zhangjiayi.me/2015/08/14/setting-up-a-github-pages-blog-with-hexo/index.html">
 <meta property="og:site_name" content="Avalon">
 <meta property="og:description" content="This tutorial is only for Hexo version 3.0 or later.">
-<meta property="og:updated_time" content="2015-08-14T09:41:32.190Z">
+<meta property="og:updated_time" content="2015-08-14T03:08:16.710Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Setting up a Github Pages blog with Hexo">
 <meta name="twitter:description" content="This tutorial is only for Hexo version 3.0 or later.">
@@ -159,11 +159,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-setting-up-a-github-pages-blog-with-hexo" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/08/14/hello-world/" class="article-date">
-  	<time datetime="2015-08-14T09:41:32.190Z" itemprop="datePublished">2015-08-14</time>
+      <a href="/2015/08/14/setting-up-a-github-pages-blog-with-hexo/" class="article-date">
+  	<time datetime="2015-08-14T09:26:31.465Z" itemprop="datePublished">2015-08-14</time>
 </a>
     </div>
   
@@ -201,16 +201,8 @@
 <ol>
 <li><a href="https://nodejs.org/" target="_blank" rel="external">Node.js</a></li>
 <li><a href="http://git-scm.com/download/" target="_blank" rel="external">Git</a></li>
-<li>Hexo <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-</li>
+<li>Hexo <figure class="highlight"><figcaption><span>npm install hexo-cli -g```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#10;## Initialize Hexo&#10;&#10;### Create a new project&#10;&#10;To be continued...&#10;&#60;!-- ## Quick Start&#10;&#10;### Create a new post&#10;&#10;``` bash&#10;$ hexo new &#34;My New Post&#34;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h2 id="Initialize_Hexo">Initialize Hexo</h2><h3 id="Create_a_new_project">Create a new project</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;yourWorkspace&gt;</span><br><span class="line">hexo init &lt;yourProjectName&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;yourProjectName&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="Install_Hexo_Plugins">Install Hexo Plugins</h3><h4 id="Install_generators">Install generators</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br></pre></td></tr></table></figure>
-<h4 id="Install_server">Install server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-server --save</span><br></pre></td></tr></table></figure>
-<h4 id="Install_deployers">Install deployers</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br></pre></td></tr></table></figure>
-<h4 id="Update_plugins">Update plugins</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-marked@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-renderer-stylus@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-generator-feed@<span class="number">1</span> --save</span><br><span class="line">npm install hexo-generator-sitemap@<span class="number">1</span> --save</span><br></pre></td></tr></table></figure>
-<p>To be continued…<br>&lt;!– ## Quick Start</p>
-<h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
@@ -227,11 +219,15 @@
     
 <nav id="article-nav">
   
-  
-    <a href="/2015/08/14/setting-up-a-github-pages-blog-with-hexo/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Setting up a Github Pages blog with Hexo</div>
-      <strong class="article-nav-caption">></strong>
+    <a href="/2015/08/14/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Setting up a Github Pages blog with Hexo
+        
+      </div>
     </a>
+  
   
 </nav>
 
