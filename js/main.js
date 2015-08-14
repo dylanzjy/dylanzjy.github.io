@@ -34,6 +34,15 @@ require([], function (){
 	    }()
 	}
 
+	if(yiliaConfig.search === true) {
+		(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+		    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+		    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+		  })(window,document,'script','/js/st.js','_st');
+
+		 _st('install', yiliaConfig.swiftype_key,'2.0.0');
+	}
+
 	$(window).bind("resize", function(){
 		if(isMobileInit && isPCInit){
 			$(window).unbind("resize");
@@ -105,15 +114,6 @@ require([], function (){
 	//是否新窗口打开链接
 	if(yiliaConfig.open_in_new == true){
 		$(".article a[href]").attr("target", "_blank")
-	}
-
-	if(yiliaConfig.search === true) {
-		(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-		    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-		    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-		  })(window,document,'script','/js/st.js','_st');
-
-		 _st('install', yiliaConfig.swiftype_key,'2.0.0');
 	}
 	
 });
