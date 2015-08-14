@@ -1,4 +1,4 @@
-define([], function(){
+var mobile = function(){
 	var _isShow = false;
 	var $tag, $aboutme, $friends;
 
@@ -151,4 +151,4 @@ define([], function(){
 			resetTags();
 		}
 	}
-})
+}
