@@ -1,4 +1,4 @@
-var pc = function(){
+define([], function(){
 
 	var Tips = (function(){
 
@@ -97,4 +97,4 @@ var pc = function(){
 			Tips.init();
 		}
 	}
-};
+});
