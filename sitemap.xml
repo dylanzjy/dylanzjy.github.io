@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.zhangjiayi.me/2015/08/14/hello-world/</loc>
-    <lastmod>2015-08-14T10:13:04.014Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.zhangjiayi.me/2015/08/14/setting-up-a-github-pages-blog-with-hexo/</loc>
-    <lastmod>2015-08-14T03:08:16.710Z</lastmod>
+    <loc>http://www.zhangjiayi.me/2015/08/14/setting-up-github-pages-blog-with-hexo/</loc>
+    <lastmod>2015-08-14T10:21:40.757Z</lastmod>
   </url>
   
 </urlset>
